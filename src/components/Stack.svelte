@@ -29,7 +29,7 @@
 			<div class="mx-auto max-w-2xl lg:max-w-5xl py-4">
 				<header class="max-w-2xl mt-12">
 					<h1 class="text-xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-xl">
-						Tech Stack
+						Tech Stack & DevOps
 					</h1>
 				</header>
 				<div class="mt-8 sm:mt-8">
