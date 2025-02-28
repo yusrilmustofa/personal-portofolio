@@ -1,80 +1,60 @@
-# My Own Personal Website & Protofolio
+# My Svelte Project
 
-<p> This README includes my public Project Showcase in my Portofolio Website, some other projects or work that is private are not icluded here </p>
-<p> Project developed and created with SvelteKit and Tailwind Css. </p>
+## 📌 Deskripsi
+Proyek ini adalah aplikasi berbasis [Svelte](https://svelte.dev/), sebuah framework JavaScript modern yang memungkinkan pembuatan aplikasi web yang ringan dan cepat.
 
-## Some Projects that i created or developed
+## 🚀 Teknologi yang Digunakan
+- [Svelte](https://svelte.dev/)
+- [Vite](https://vitejs.dev/) (Opsional, untuk pengembangan lebih cepat)
+- [Tailwind CSS](https://tailwindcss.com/) (Opsional, untuk styling)
 
-<ul>
+## 📦 Instalasi
+Pastikan Anda memiliki [Node.js](https://nodejs.org/) terinstal di sistem Anda.
 
-### Open Source Libraries and Public Templates
+```sh
+# Clone repository
+git clone https://github.com/username/my-svelte-project.git
+cd my-svelte-project
 
-> <a href="https://github.com/fanboykun/ts-input-validator"> `Ts input validator (Input validation like laravel validator built in typescript)`</a>
+# Instal dependensi
+npm install
+```
 
-> <a href="https://github.com/fanboykun/my-sowon"> `Mysql query builder with Typescript`</a>
+## 🛠️ Menjalankan Proyek
+```sh
+npm run dev
+```
+Akses aplikasi di `http://localhost:5173` (jika menggunakan Vite).
 
-> <a href="https://github.com/fanboykun/sveltekit-breeze"> `Sveltekit Authentication Starterkit With Typescript Prisma, TailwindCss, Lucia Auth`</a>
+## 📜 Struktur Folder
+```
+my-svelte-project/
+├── public/       # Folder untuk aset statis
+├── src/          # Kode sumber utama
+│   ├── routes/   # Halaman aplikasi
+│   ├── components/ # Komponen UI
+│   ├── styles/   # Styling CSS
+│   ├── main.js   # Entry point aplikasi
+├── package.json  # Konfigurasi npm
+├── svelte.config.js  # Konfigurasi Svelte
+└── README.md     # Dokumentasi ini
+```
 
-> <a href="https://github.com/fanboykun/native-mvc"> `PHP MVC Starterkit`</a>
+## 🔧 Build untuk Produksi
+```sh
+npm run build
+```
+Hasil build akan ada di folder `build/`.
 
-### Fullstack Project
+## 🛠️ Deployment
+Anda bisa meng-host aplikasi ini di platform seperti:
+- [Vercel](https://vercel.com/)
+- [Netlify](https://www.netlify.com/)
+- [GitHub Pages](https://pages.github.com/)
 
-> <a href="https://github.com/fanboykun/medic">`Retail POS App (use case: drug store)`</a>
+## 📌 Lisensi
+Proyek ini menggunakan lisensi MIT.
 
-> <a href="https://github.com/fanboykun/tembong">`Dropshipping App using Laravel, Livewire, Alpine.js & Tailwind.css`</a>
+---
+Selamat ngoding! 🚀
 
-> <a href="https://github.com/fanboykun/mager">`Mager (Organization Management using Laravel, Livewire, Alpine.js & Tailwind.css)`</a>
-
-> <a href="https://github.com/fanboykun/creditor">`Creditor (Cooperative Business Management using Laravel, Livewire, Alpine.js & Tailwind.css) hosted in Vercel, Using Planetscale as serverless database`</a>
-
-> <a href="https://github.com/fanboykun/euclive-chat"> `Euclive Chat (Decentralized ChatApp Using GUN.js)`</a>
-
-> <a href="https://github.com/fanboykun/tokopekita"> `Simple Acommerce (Using PHP)`</a>
-
-> <a href="https://github.com/fanboykun/sch"> `Sch (School Management using Laravel, Livewire, Alpine.js & Tailwind.css)`</a>
-
-
-### Data Mining, Decission Support System and Cryptography Algorithm
-
-> <a href="https://github.com/fanboykun/rsa-calculation"> ` RSA Algorithm Implementation in Python `</a>
-
-> <a href="https://github.com/fanboykun/datamining-kmeans"> ` Kmeans Implementation (Using PHP Laravel) `</a>
-
-> <a href="https://github.com/fanboykun/decissionsupportsystem">` Decission Support System (Library of implementation Moora & Waspas Using PHP Laravel) `</a>
-
-> <a href="https://github.com/fanboykun/labrina">` Labrina (Example usage of Decissionsupportsystem library using Laravel, Livewire, Alpine.js & Tailwind.css) `</a>
-
-> <a href="https://github.com/fanboykun/c45-test-php">` C45 Implementataion Using PHP`</a>
-
- ###  Static Site Project
-
-> <a href="https://github.com/fanboykun/browser-tool">`PDF Merger PWA (offline work, work fully in browser) with sveltekit and typescript`</a>
- 
-> <a href="https://github.com/fanboykun/Kalani-Apps">` Coffe Shop Landing Page Using React`</a>
- 
-> <a href="https://github.com/fanboykun/chesira">` Tech Organization Using Vue`</a>
- 
-> <a href="https://github.com/fanboykun/aromez">` Perfume Business Company Landing Page Using Sveltekit`</a>
-
-> <a href="https://github.com/fanboykun/personal-portofolio">` My Personal Site Using Sveltekit`</a>
-
-
- ###  RESTFull API Project 
-
-> <a href="https://github.com/fanboykun/go-rest-api">` Go Rest API  `</a>
-
-> <a href="https://github.com/fanboykun/neonroom">` Neonroom (RESTFull API That serve services like google classroom, Using Laravel)  `</a>
-
-> <a href="https://github.com/fanboykun/abutari">` Abutari (Point Of Sales RESTFull API Using Laravel) `</a>
-
- ### Learning Purpose Projects
-
- > <a href="https://github.com/fanboykun/learn-go-basic"> `All Golang basic implementation`</a>
-
-</ul>
-
-<br>
-
-> Some projects may still under development or not being developed anymore
-
-> All rights used is reserved
