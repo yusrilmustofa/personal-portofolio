@@ -34,6 +34,13 @@ export const projects = [
 		about: 'Encryption and Decryption Data',
 		description: 'Feature to convert plaintext into a random string',
 		link: 'https://github.com/yusrilmustofa/TP1-Security-no-3'
+	},
+	{
+		id: 5,
+		type: 'Personal Project',
+		about: 'Cafetaria Project',
+		description: 'A web-based application to manage cafeteria transactions, including menu management',
+		link: 'https://github.com/yusrilmustofa/cafetaria-nest.git'
 	}
 ];
 
